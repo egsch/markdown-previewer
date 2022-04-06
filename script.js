@@ -17,7 +17,7 @@ function example (){ \n \
 + or plusses \n \
 >beautiful blockquotes work too. \n \n \n \
 and images: \n \n \
-![alt text](https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fmedia02.hongkiat.com%2Fweb-content-with-markdown%2Fmd-logo.jpg&f=1&nofb=1 'title text')";
+![alt text](https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Markdown-mark.svg/175px-Markdown-mark.svg.png)";
 class Previewer extends React.Component {
   constructor(props) {
     super(props);
