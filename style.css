@@ -1,0 +1,79 @@
+html, body{
+  background-color: #282828;
+}
+#editor {
+  width: 50%;
+  height: 100vh - 20px;
+  margin: 20px;
+  resize: none;
+}
+#preview{
+  width: 50%;
+  height: 100vh - 20px;
+  margin: 5px;
+  padding: 10px;
+}
+#flex-contain{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+img {
+  width: 150px;
+}
+blockquote {
+  border-left: 4px solid #888;
+  background-color: #444;
+  font-family: "Lato";
+  padding: 0.25em;
+  margin: 20px 20px 20px -5px;
+}
+p{
+  font-family: "Lato";
+  color: #eee;
+  line-height: 1.25em;
+}
+h1, h2, h3, li{
+  font-family: "Lato";
+  color: #eee;
+}
+code{
+  font-family: "Inconsolata";
+  font-size: 16px;
+  color: #eee;
+  padding: 1.5px;
+  margin: 3px;
+  line-height: 1.25em;
+}
+pre{
+  background-color: #393939;
+}
+textarea{
+  font-family: "Inconsolata";
+  font-size: 16px;
+  background-color: #222;
+  color: #eee;
+  border: 5px solid #111;
+  padding: 8px;
+  line-height: 1.35em;
+}
+
+a {
+  color: #fff
+}
+
+@media (max-width: 650px) {
+  #flex-contain{
+    flex-direction: column;
+  }
+  #editor{
+    width: 87%;
+    height: 45vh;
+    margin-bottom: 0px;
+  }
+  #preview{
+    width: 87%;
+    height: 45vh;
+    padding-top: 0px;
+  }
+}
